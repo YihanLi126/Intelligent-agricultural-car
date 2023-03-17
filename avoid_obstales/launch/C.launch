@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="voice_module" type="C_with_direction.py" name="C" output="screen" />
+    <!-- turn on imu  -->
+  <!-- <include file="$(find fdilink_ahrs)/launch/ahrs_data.launch" /> -->
+</launch>

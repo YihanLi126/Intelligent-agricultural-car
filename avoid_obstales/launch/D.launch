@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="voice_module" type="D.py" name="D" output="screen" />
+</launch>

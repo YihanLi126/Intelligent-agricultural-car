@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="voice_module" type="combine1124.py" name="combine" output="screen" />
+</launch>

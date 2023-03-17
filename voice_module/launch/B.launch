@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="voice_module" type="B_with_direction.py" name="B" output="screen" />
+  <!-- turn on ultrasound -->
+  <!-- <include file="$(find voice_module)/launch/ultrasound.launch" /> -->
+</launch>

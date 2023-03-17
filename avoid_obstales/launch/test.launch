@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="voice_module" type="test.py" name="test" output="screen" />
+     <!-- turn on imu  -->
+  <include file="$(find fdilink_ahrs)/launch/ahrs_data.launch" />
+</launch>

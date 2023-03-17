@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="voice_module" type="direction_correct_2.py" name="direction_correct_2" output="screen" />
+
+      <param name='Kp_dir_param' value='0.5' type='double' />
+      <param name='Ki_dir_param' value='0.0' type='double' />
+      <param name='Kd_dir_param' value='0.0' type='double' />
+
+</launch>

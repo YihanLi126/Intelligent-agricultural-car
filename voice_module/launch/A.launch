@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="voice_module" type="A_with_direction.py" name="A" output="screen" />
+
+</launch>
